@@ -1,0 +1,66 @@
+\documentclass[a4paper, 12pt]{article}
+ % This is used for setting the margins
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+
+%%%% IMPORTED PACKAGES %%%
+\usepackage{graphicx}
+\usepackage{amsmath}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%% COVER %%%%%%%%%%%
+\input{cover.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%% COVER %%%%%%%%%%%
+\tableofcontents
+\newpage{\pagestyle{empty}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Set the counter of the page to 1 after the index.
+\setcounter{page}{1}
+
+%%%%%%%% SECTION 1 %%%%%%%
+\section{Section 1}
+\label{section-1}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices nisl in libero aliquet eleifend. Nam nibh leo, egestas non auctor eu, egestas eu libero. Cras sem tortor, pulvinar sed tincidunt et, viverra id ipsum. Suspendisse venenatis pharetra lectus sit amet porta. Cras euismod et tellus in aliquet. Quisque non posuere velit. Vivamus dui tortor, euismod eu imperdiet vel, ornare vel lectus. Vestibulum id ex neque. Curabitur ligula magna, sagittis at pulvinar in, mattis at magna.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%% SECTION 2 %%%%%%%
+\section{Section 2}
+\label{section-2}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices nisl in libero aliquet eleifend. Nam nibh leo, egestas non auctor eu, egestas eu libero. Cras sem tortor, pulvinar sed tincidunt et, viverra id ipsum. Suspendisse venenatis pharetra lectus sit amet porta. Cras euismod et tellus in aliquet. Quisque non posuere velit. Vivamus dui tortor, euismod eu imperdiet vel, ornare vel lectus. Vestibulum id ex neque. Curabitur ligula magna, sagittis at pulvinar in, mattis at magna.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%% SECTION 3 %%%%%%%
+\section{Section 3}
+\label{section-3}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices nisl in libero aliquet eleifend. Nam nibh leo, egestas non auctor eu, egestas eu libero. Cras sem tortor, pulvinar sed tincidunt et, viverra id ipsum. Suspendisse venenatis pharetra lectus sit amet porta. Cras euismod et tellus in aliquet. Quisque non posuere velit. Vivamus dui tortor, euismod eu imperdiet vel, ornare vel lectus. Vestibulum id ex neque. Curabitur ligula magna, sagittis at pulvinar in, mattis at magna.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%% SECTION 4 %%%%%%%
+\section{Section 4}
+\label{section-4}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices nisl in libero aliquet eleifend. Nam nibh leo, egestas non auctor eu, egestas eu libero. Cras sem tortor, pulvinar sed tincidunt et, viverra id ipsum. Suspendisse venenatis pharetra lectus sit amet porta. Cras euismod et tellus in aliquet. Quisque non posuere velit. Vivamus dui tortor, euismod eu imperdiet vel, ornare vel lectus. Vestibulum id ex neque. Curabitur ligula magna, sagittis at pulvinar in, mattis at magna.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%% BIBLIOGRAPHY %%%%%%
+\addcontentsline{toc}{section}{References}
+
+\bibliographystyle{plain}
+
+\bibliography{bibliography}
+\nocite{*}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
