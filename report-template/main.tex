@@ -7,13 +7,39 @@
 \usepackage{amsmath}
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\newenvironment{keywords}
+{\begin{list}{}{\setlength{\leftmargin}{1em}}\item[\hskip\labelsep \bfseries Keywords:]}
+{\end{list}}
+
 \begin{document}
 
 %%%%%%%% COVER %%%%%%%%%%%
 \input{cover.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%% COVER %%%%%%%%%%%
+%%%%%% ABSTRACT %%%%%%%%%%
+\newpage
+\begin{abstract}
+{\em
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis maximus dui. Sed congue ultrices diam, ac posuere orci vehicula sit amet. Sed eu iaculis ex. Vestibulum tempor dictum nunc, sed tincidunt tortor feugiat a. Quisque cursus ut leo ac fringilla. Nullam feugiat, est quis egestas faucibus, nulla diam cursus justo, in dapibus lorem ipsum nec augue. Proin mattis fringilla lectus aliquet congue.
+
+\bigskip
+
+Nulla orci augue, convallis sit amet neque et, vehicula tincidunt dolor. Vivamus commodo massa sit amet lobortis blandit. Curabitur imperdiet mi nec elit porttitor dictum. Vestibulum in urna risus. In ac laoreet lorem. Donec in libero eu dolor iaculis ullamcorper sit amet sit amet velit. Phasellus sit amet felis purus. Integer pretium nec erat quis sagittis. Etiam dictum hendrerit venenatis. Vestibulum semper, odio non efficitur suscipit, lorem ex iaculis libero, id pretium lacus augue a ipsum. Suspendisse commodo sed justo sit amet pharetra. Donec interdum pulvinar molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+}
+
+\begin{keywords}
+Keyword 1, Keyword 2, Keyword 3
+\end{keywords}
+\end{abstract}
+
+\newpage{\pagestyle{empty}}
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% TABLE OF CONTENTS %%%%%
 \tableofcontents
 \newpage{\pagestyle{empty}}
 
